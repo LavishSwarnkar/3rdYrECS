@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  4_DIV                                                                02/04/2020 11:25:56 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02b
+OBJECT MODULE PLACED IN 4_div.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE 4_div.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00H
+0000 7403              2     MOV A, #03H
+0002 75F002            3     MOV B, #02H
+0005 84                4     DIV AB
+0006 F8                5     MOV R0, A
+                       6     END
+A51 MACRO ASSEMBLER  4_DIV                                                                02/04/2020 11:25:56 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
