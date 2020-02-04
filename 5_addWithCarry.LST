@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  5_ADDWITHCARRY                                                       02/04/2020 11:13:14 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02b
+OBJECT MODULE PLACED IN 5_addWithCarry.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE 5_addWithCarry.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 00H
+0000 7448              2     MOV A, #48H
+0002 75F039            3     MOV B, #39H
+0005 35F0              4     ADDC A, B
+0007 F8                5     MOV R0, A
+                       6     END
+A51 MACRO ASSEMBLER  5_ADDWITHCARRY                                                       02/04/2020 11:13:14 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,6 @@
+org 00H
+MOV A, #04H
+MOV B, #02H
+SUBB A, B
+MOV R0, A
+END

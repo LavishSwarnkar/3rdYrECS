@@ -1,0 +1,6 @@
+org 00H
+MOV A, #48H
+MOV B, #39H
+ADDC A, B
+MOV R0, A
+END
